@@ -1,3 +1,4 @@
-function travel() {
-  prompt("ادخل اسم الكوكب الذي تريد السفر اليه");
-}
+(function travel(x = "زمردة") {
+  console.log("أود السفر إلى كوكب " + x);
+})(planet);
+let planet = prompt("كوكبك");
